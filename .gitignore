@@ -1,0 +1,71 @@
+# Data Files - Exclude large CSV and data files
+data/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json
+
+# Model and Output Files
+output/
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pth
+*.pt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+.env
+.env.local
+
+# IDE and Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Package Management
+*.egg-info/
+dist/
+build/
+
+# Results dan Logs
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+.tmp/
+temp/
+
+# Local Config
+config.local.py
+settings.local.py
+
+# Hasil Output Grafik - Optional (uncomment if you want to exclude)
+# Hasil Output Grafik/
